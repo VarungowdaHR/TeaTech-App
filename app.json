@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "react_native",
-    "slug": "react_native",
-    "version": "1.0.0",
+    "name": "TeaTech",
+    "slug": "teatest",
+    "version": "1.0.2",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icons/icon1.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icons/Fsplash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#283310"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,12 +22,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/icons/icon1.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.VVIET.TeaTech",
+      "versionCode": 3
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icons/icon1.png"
     }
   }
 }
